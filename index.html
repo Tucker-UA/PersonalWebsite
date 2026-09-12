@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Minimal website template">
+  <title>Website Title</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="navbar-logo">MyWebsite</a>
+      <nav>
+        <ul class="navbar-nav">
+          <li><a href="#home">Name</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="container section">
+    <h1>Welcome</h1>
+    <p>This is the main content area of your website. Replace this with your actual content.</p>
+
+    <div class="card">
+      <div class="card-header">Featured Content</div>
+      <div class="card-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+
+    <!-- Add more sections as needed -->
+    <h2 id="blog">Blog</h2>
+    <h2 id="cv">CV</h2>
+    <h2 id="research">Research</h2>
+    <h2 id="projects">Projects</h2>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4 class="footer-heading">MyWebsite</h4>
+          <p class="text-muted">Your website description goes here.</p>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Name</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> MyWebsite. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Auto-update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
